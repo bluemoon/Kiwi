@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license         = { :type => 'MIT', :file => 'License.txt' }
   s.source          = { :git => 'https://github.com/allending/Kiwi.git', :tag => '2.1' }
   s.source_files    = 'Classes'
-  s.framework       = 'SenTestingKit'
+  s.framework       = 'XCTest'
   s.ios.xcconfig    = { 'FRAMEWORK_SEARCH_PATHS' => '$(inherited) "$(SDKROOT)/Developer/Library/Frameworks" "$(DEVELOPER_LIBRARY_DIR)/Frameworks"' }
   s.osx.xcconfig    = { 'FRAMEWORK_SEARCH_PATHS' => '$(inherited) "$(DEVELOPER_LIBRARY_DIR)/Frameworks"' }
 end
