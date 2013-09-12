@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage        = 'https://github.com/allending/Kiwi'
   s.authors         = { 'Allen Ding' => 'alding@gmail.com', 'Luke Redpath' => 'luke@lukeredpath.co.uk', 'Marin Usalj' => 'mneorr@gmail.com' }
   s.license         = { :type => 'MIT', :file => 'License.txt' }
-  s.source          = { :git => 'https://github.com/allending/Kiwi.git', :tag => '2.1' }
+  s.source          = { :git => 'https://github.com/bluemoon/Kiwi.git', :branch => 'future' }
   s.source_files    = 'Classes'
   s.frameworks      = 'XCTest', 'SenTestingKit'
   s.ios.xcconfig    = { 'FRAMEWORK_SEARCH_PATHS' => '$(inherited) "$(SDKROOT)/Developer/Library/Frameworks" "$(DEVELOPER_LIBRARY_DIR)/Frameworks"' }
